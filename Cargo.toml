@@ -1,10 +1,10 @@
 [package]
 name = "fallthrough"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "Pattern match with fallthrough, in the style of C switch"
 homepage = "https://github.com/Jules-Bertholet/fallthrough"
 repository = "https://github.com/Jules-Bertholet/fallthrough"
-keywords = ["fallthough", "macro", "switch", "control-flow"]
+keywords = ["fallthrough", "macro", "switch", "control-flow"]
 categories = ["rust-patterns"]

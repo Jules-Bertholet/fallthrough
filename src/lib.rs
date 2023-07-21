@@ -4,7 +4,7 @@
 #![forbid(unsafe_code)]
 #![warn(rust_2018_idioms, clippy::cargo, clippy::semicolon_if_nothing_returned)]
 
-/// The `fallthrough` macro accpets a match scrutinee,
+/// Accpets a match scrutinee,
 /// followed by a comma-separated list of zero or more pattern match arms.
 /// All arms but the first must be preceded with a `'label: `. Only the first arm
 /// can acccess identifiers bound by the pattern match. Inside the match arms,
