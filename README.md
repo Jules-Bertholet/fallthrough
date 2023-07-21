@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/Jules-Bertholet/fallthrough/actions/workflows/actions.yml/badge.svg)](https://github.com/Jules-Bertholet/fallthrough/actions) [![API reference](https://img.shields.io/docsrs/fallthrough)](https://docs.rs/fallthrough/) [![Crates.io](https://img.shields.io/crates/v/fallthrough)](https://crates.io/crates/fallthrough) [![License](https://img.shields.io/crates/l/fallthrough.svg)](https://github.com/Jules-Bertholet/fallthrough#license)
 
-This crate provides a `fallthrough` macro, which allows performing a pattern match with fallthrough through the arms, in the style of [`C switch`](https://en.cppreference.com/w/c/language/switch).
+This crate provides a `fallthrough` macro, which allows performing a pattern match with fallthrough through the arms, in the style of [C `switch`](https://en.cppreference.com/w/c/language/switch).
 
 ```rust
 use fallthrough::fallthrough;
