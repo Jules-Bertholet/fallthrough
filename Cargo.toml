@@ -1,7 +1,7 @@
 [package]
 name = "fallthrough"
-version = "0.1.2"
-edition = "2021"
+version = "0.1.3"
+edition = "2024"
 license = "MIT OR Apache-2.0"
 description = "Pattern match with fallthrough, in the style of C switch"
 homepage = "https://github.com/Jules-Bertholet/fallthrough"

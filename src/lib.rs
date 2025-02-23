@@ -4,10 +4,10 @@
 #![forbid(unsafe_code)]
 #![warn(rust_2018_idioms, clippy::cargo, clippy::semicolon_if_nothing_returned)]
 
-/// Accpets a match scrutinee,
+/// Accepts a match scrutinee,
 /// followed by a comma-separated list of zero or more pattern match arms.
 /// All arms but the first must be preceded with a `'label: `. Only the first arm
-/// can acccess identifiers bound by the pattern match. Inside the match arms,
+/// can access identifiers bound by the pattern match. Inside the match arms,
 /// calling `break 'label;` will jump to the label's corresponding match arm
 /// (you can only jump downwards). The list of arms can optionally be followed by a final
 /// trailing label, which can be used to jump out of the fallthrough entirely.
@@ -46,7 +46,6 @@
 ///     assert_eq!(fall(64), 98);
 /// }
 /// ```
-
 #[macro_export]
 macro_rules! fallthrough {
     ($scrutinee:expr $(,)?) => {
